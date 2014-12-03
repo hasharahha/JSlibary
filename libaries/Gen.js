@@ -1,4 +1,6 @@
-//$(element, attr, value, id)
+//READ RULZ:
+//By Jacob Bondley
+//$create(element, attr, value, id)
 function $create(element, attr, value){
   var Elem = document.createElement(element);
   Elem[attr] = value;
