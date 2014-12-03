@@ -8,6 +8,6 @@ function $create(element, attr, value, id){
 }
 function $editprop(id, attr, value){
   var Cache = id;
-var edit = document.getElementById(Cache)
+var edit = document.getElementById(id)
 edit[attr] = value;
 }
