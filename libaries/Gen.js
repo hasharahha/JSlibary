@@ -1,11 +1,6 @@
 
-function $(selector, value){
-var call = selector;
-var self ={};
-var self.selecter = selector;
-
-
-var self.element = document.createElement(selector);
-self.element[value];
-document.body.appendChild(self.element);
+function $(element, attr, value){
+  var Elem = document.createElement(element);
+  Elem[attr] = value;
+  document.body.appendChild(Elem);
 }
