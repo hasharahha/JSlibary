@@ -1,13 +1,10 @@
 
-function $(selector){
+function $(selector, value){
+var call = selector;
 var self ={};
 var self.selecter = selector;
-var self.element = document.querySelector(self.selector);
-var self.setAttribute = function(name, value){
-    self.element.setAttribute(name, value);
-}
-var self.alert = function(msg){
-  alert(msg);
-}
 
+
+var self.element = document.createElement(selector);
+self.element[value];
 }
