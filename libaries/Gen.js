@@ -6,7 +6,7 @@ function $create(element, attr, value, id){
   document.body.appendChild(Elem);
   Elem['stat'] = id;
 }
-function $editprop(id, attr,  value){
+function $editprop(id, attr, value){
   var Cache = id;
 var edit = document.getElementById(Cache)
 edit[attr] = value;
